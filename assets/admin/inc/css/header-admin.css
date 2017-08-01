@@ -1,0 +1,220 @@
+body {
+	margin:0;
+	padding:0;
+	scroll-behavior:smooth;
+	background:rgba(105,105,105,0.2);
+}
+#wrapper {
+	width:100%;
+	height:100%;
+	scroll-behavior:smooth;
+	transition:all .40s linear;
+}
+#header {
+	margin:0;
+	width:100%;
+	height:72px;
+	background:rgba(0,0,0,1);
+	border-bottom:1px solid #000;
+	position:fixed;
+	box-shadow:0px 3px 2px 5px;
+}
+.judul {
+	float:left;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold;
+	margin-left:80px;
+	margin-top:-18px;
+}
+.judul a{
+	text-decoration:none;
+	color:#FFF;
+	transition:all .60s linear;
+}
+.judul a:hover{
+	color:#00BFFF;
+	transition:all .60s linear;
+}
+.new-judul {
+	float:left;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:100px;
+	margin-left:200px;
+}
+.new-judul a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:40px;
+	transition:all .60s linear;
+}
+.new-judul a:hover{
+	color:#00BFFF;
+	transition:all .60s linear;
+	text-shadow:10px 10px 10px;
+}
+.khusus {
+	font-family:Linux Biolinum Keyboard O;
+	font-size:30px;
+	color:white;
+	text-shadow:0px 0px 10px ;
+}
+.new-khusus {
+	font-family:Linux Biolinum Keyboard O;
+	font-size:60px;
+	color:white;
+	text-shadow:0px 0px 10px ;
+}
+.nav {
+	color:#FFF;
+	}
+.nav li {
+	display:inline;
+}
+
+.nav li a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Linux Libertine Initials O;
+	padding:14.3px;
+	float:right;
+	margin-top:17px;
+	transition:all .10s linear;
+}
+.nav li a:hover {
+	background:#FFF;
+	color:#000;
+	text-shadow:0px 10px 10px;
+	transition:all .30s linear;
+}
+.copy {
+	margin-left:600px;
+	float:left;
+}
+.copy a{
+	text-decoration:none;
+	color:#00BFFF;
+	transition:all .30s linear;
+}
+.copy a:hover{
+	color:blue;
+	transition:all .30s linear;
+	border-bottom:1.5px solid #00BFFF;
+}
+#menu-lagi {
+	margin-top:-16px;
+	padding:0px;
+	background:#000;
+	width:100%;
+	height:70px;
+	font-family:Linux Libertine Initials O;
+}
+.coba li{
+	display:inline;
+}
+.coba li a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:18px;
+	font-weight:bold;
+	float:left;
+	margin-top:20px;
+	padding:15px;
+	transition:all .20s linear;
+}
+.coba li a:hover{
+	background:#FFF;
+	color:#000;
+	text-shadow:0px 10px 10px;
+	transition:all .20s linear;
+}
+#up-wrapper {
+	background-image:url(/GOBLOGER/img/background.jpg);
+	background-size:cover;
+	width:1322px;
+	height:598px;
+	transition:all .60s linear;
+}
+.navigasi img{
+	width:200px;
+	margin-top:360px;
+	margin-left:-150px;
+	transition: .5s ;
+}
+.navigasi img:hover{
+	width:400px;
+	margin-top:100px;
+	transition: .5s;
+}
+#back-wrapper {
+	float:left;
+	margin-left:50px;
+	margin-top:50px;
+	width:92%;
+	text-align:justify;
+	background:rgba(0,0,0,0.1);
+	border-radius:10px;
+}
+.isi-kiri {
+	margin:50px;
+	margin-left:40px;
+	width:58%;
+	float:left;
+	background:rgba(211,211,211,0.8);
+	padding:15px;
+	border-radius:10px;
+}
+.isi-kanan {
+	width:27%;
+	float:right;
+	margin-right:32px;
+	margin-top:50px;
+	background:rgba(211,211,211,0.8);
+	padding:15px;
+	border-radius:10px;
+}
+.isi-kanan img{
+	float:right;
+	margin-right:110px;
+	margin-top:-380px;
+	margin-bottom:30px;
+	width:100px;
+	border-radius:50%;
+	border:2px solid #000;
+	transition:all .60s linear;
+}
+.isi-kanan img:hover {
+	width:170px;
+	margin-right:90px;
+	margin-top:-380px;
+	transition:all .0s linear;
+}
+.isi-kanan table{
+	margin-top:280px;
+}
+.judul p a{
+	text-decoration:none;
+	color:#FFF;
+	transition:all .0s linear;
+}
+.judul p a:hover,.isi-kanan p a:hover{
+	font-weight:underline;
+	color:#00BFFF;
+	transition:all .60s linear;
+}
+.edit-header img{
+	width:20px;
+	float:left;
+	margin-left:-70px;
+	margin-top:-90px;
+	transition:all .30s linear;
+}
+.edit-header a:hover img{
+	width:30px;
+	transition:all .30s linear;
+}
+
