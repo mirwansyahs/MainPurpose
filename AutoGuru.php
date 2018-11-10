@@ -36,9 +36,9 @@ function showStuff(id) {
 
 <?php
 $host = "localhost";
-	$user = "smkmkuni_ol";
-	$pass = "kuningan45511";
-	$db = "smkmkuni_ol";
+	$user = "root";
+	$pass = "";
+	$db = "onlearning";
 	
 	try{
 		$con = mysqli_connect($host, $user, $pass);
