@@ -1,7 +1,7 @@
 <?php 
 //Ini Link Untuk Halaman ADMINISTRATOR
-
-if ($_GET[admin] == ''){
+// Update 29 Okotber 2019
+if ($_GET[admin] == ""){
 	include "assets/admin/index.php";
 }
 
